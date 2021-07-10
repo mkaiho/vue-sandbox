@@ -13,6 +13,5 @@
     },
     "vetur.useWorkspaceDependencies": true,
     "vetur.experimental.templateInterpolationService": true,
-    "debug.javascript.usePreview": false,
   
 }
