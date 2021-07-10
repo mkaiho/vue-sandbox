@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  feapp:
+    build:
+      context: .
+      dockerfile: ./docker/feapp/Dockerfile
+    container_name: vue-sandbox-fe
+    tty: true
+    volumes:
+      - .:/app/vue-sandbox
+    working_dir: /app/vue-sandbox
+    ports:
+      - 3000:3000
+    environment:
+      - LISTENING_PORT=3000

@@ -1,0 +1,11 @@
+{
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "feapp",
+    "workspaceFolder": "/app/vue-sandbox",
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "octref.vetur",
+        "msjsdiag.debugger-for-chrome"
+    ]
+}
