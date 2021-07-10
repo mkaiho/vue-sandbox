@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mkaiho/vue-sandbox/issues"
   },
-  "homepage": "https://github.com/mkaiho/vue-sandbox#readme"
+  "homepage": "https://github.com/mkaiho/vue-sandbox#readme",
+  "devDependencies": {
+    "@vue/cli": "^4.5.13"
+  }
 }
