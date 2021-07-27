@@ -9,8 +9,12 @@ services:
     tty: true
     volumes:
       - .:/app/vue-sandbox
+      - node_modules_volume:/app/vue-sandbox/node_modules
     working_dir: /app/vue-sandbox
     ports:
       - 3000:3000
     environment:
       - LISTENING_PORT=3000
+
+volumes:
+  node_modules_volume:
