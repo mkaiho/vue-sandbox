@@ -19,6 +19,8 @@ const config = {
   devServer: {
     port: 3000,
   },
+
+  transpileDependencies: ["vuetify"],
 };
 
 module.exports = config;
